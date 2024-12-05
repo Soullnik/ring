@@ -1,0 +1,28 @@
+.mainLayout {
+  min-height: 100vh;
+  background: var(--tg-theme-bg-color, #ffffff);
+}
+
+.header {
+  width: 100%;
+  z-index: 10;
+}
+
+.bottomNavigation {
+  width: 100%;
+  z-index: 10;
+}
+
+@media (max-width: 768px) {
+  .mainLayout {
+    padding-bottom: 60px; /* Adjust padding for mobile */
+    padding-top: 107px; /* Adjust padding for mobile */
+  }
+}
+
+@media (min-width: 769px) {
+  .mainLayout {
+    padding-bottom: 82px; /* Padding for desktop */
+    padding-top: 72px; /* Padding for desktop */
+  }
+}

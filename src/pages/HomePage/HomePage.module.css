@@ -1,0 +1,160 @@
+.page {
+  background: linear-gradient(135deg, #f9f3e6, #fff9f0);
+  padding: 20px;
+  z-index: 0;
+}
+
+.heroSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px 0;
+  padding: 60px 20px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 24px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.heroText {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 2.5rem;
+  color: #2c3e50;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+.subText {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.createButton {
+  background: #d4af37;
+  max-width: 300px;
+  margin: 0 auto;
+  transition: all 0.3s ease;
+}
+
+.createButton:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(212, 175, 55, 0.3);
+}
+
+.sectionTitle {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 2rem;
+  color: #2c3e50;
+  text-align: center;
+  margin: 60px 0 30px;
+}
+
+.featuresGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin: 30px 0;
+}
+
+.featureCard {
+  padding: 24px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.featureCard:hover {
+  transform: translateY(-5px);
+}
+
+.featureTitle {
+  color: #d4af37;
+  margin-bottom: 15px;
+}
+
+.steps {
+  display: flex;
+  justify-content: space-around;
+  margin: 40px 0;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.step {
+  text-align: center;
+  flex: 1;
+  min-width: 200px;
+}
+
+.stepNumber {
+  width: 40px;
+  height: 40px;
+  background: #d4af37;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 15px;
+  font-size: 1.2rem;
+}
+
+.roadmapGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  margin: 30px 0;
+}
+
+.roadmapCard {
+  padding: 24px;
+}
+
+.phaseTitle {
+  color: #d4af37;
+  margin-bottom: 15px;
+}
+
+.roadmapList {
+  list-style: none;
+  padding: 0;
+}
+
+.roadmapList li {
+  margin: 10px 0;
+  padding-left: 20px;
+  position: relative;
+}
+
+.roadmapList li::before {
+  content: "•";
+  color: #d4af37;
+  position: absolute;
+  left: 0;
+}
+
+.ctaSection {
+  margin: 60px 0;
+}
+
+.ctaCard {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 40px;
+  background: linear-gradient(135deg, #fff, #f8f4ea);
+}
+
+.ctaTitle {
+  color: #2c3e50;
+  margin-bottom: 15px;
+}
+
+.ctaText {
+  margin-bottom: 25px;
+}
+
+.ctaButton {
+  background: #d4af37;
+  max-width: 250px;
+  margin: 0 auto;
+}
